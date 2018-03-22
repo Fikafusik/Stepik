@@ -39,6 +39,9 @@ int main() {
     case 3:
         func = abs;
         break;
+    default:
+        printf("Error");
+        return 0;
     }
     forEachElement(array, N, func);
     for (i = 0; i < N; ++i)
